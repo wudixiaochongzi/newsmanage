@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", "Helvetica", "Arial", sans-serif;
+    color: #333;
+}
+a{
+    color: #333;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+input,textarea{
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+}
+header{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+}
+section{
+    height: calc(100% - 50px);
+}
+.left{
+    width: 20%;
+    background: #333;
+    height: 100%;
+    float: left;
+}
+.right{
+    width: 80%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px 40px;
+}
+article{
+    margin-bottom: 12px;
+}
+.title{
+    height: 40px;
+    border-bottom: 1px dashed #ccc;
+    line-height: 40px;
+}
+.content{
+    padding: 15px 0 8px 0;
+    text-indent: 2em;
+}
+
+.left li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #0f0f0f;
+}
+.left li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}

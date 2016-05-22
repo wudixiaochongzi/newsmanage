@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="news">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻管理系统</title>
+    <script src="js/angular.min.js"></script>
+    <script src="angular-route/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        新闻内容管理系统
+    </header>
+    <section>
+        <div class="left">
+            <ul>
+                <li>
+                    <a href="#/">新闻列表</a>
+                </li>
+                <li>
+                    <a href="#/add">添加新闻</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right" ng-view></div>
+    </section>
+</body>
+<script src="js/app.js"></script>
+</html>
